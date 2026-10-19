@@ -1,0 +1,14 @@
+[project]
+name = "Solveur Hamilton-Jacobi"
+version = "0.1.0"
+description = "solveur Hamilton-Jacobi Python"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "matplotlib",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
